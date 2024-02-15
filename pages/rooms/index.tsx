@@ -50,7 +50,7 @@ export default function Component() {
           La Salle
         </Button>
         <Button variant='outline' className='rounded-full'>
-          De l'eglise
+          De l&apos;eglise
         </Button>
         <Button variant='outline' className='rounded-full'>
           Park
