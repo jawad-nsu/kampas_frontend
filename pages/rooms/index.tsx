@@ -20,7 +20,7 @@ export default function Component() {
           </div>
         </div>
         <div className='flex items-center space-x-4'>
-          <Button variant='ghost'>Airbnb your home</Button>
+          <Button variant='ghost'>Rent your home</Button>
           <MenuIcon className='h-6 w-6' />
           <Avatar>
             <AvatarImage
