@@ -19,8 +19,9 @@ export default function PeopleBoard() {
         </div>
       </div>
       <div className='grid grid-cols-5 grid-rows-5 gap-4 mx-12 '>
-        {executiveBody.map(({ name, img, title, followers, following }) => (
+        {executiveBody.map(({ id, name, img, title, followers, following }) => (
           <ProfileCard
+            key={id}
             name={name}
             title={title}
             img={img}
