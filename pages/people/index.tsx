@@ -8,7 +8,7 @@ export default function PeopleBoard() {
         <div className='flex flex-col items-center space-y-4 text-center mb-24 p-12'>
           <div className='space-y-2 '>
             <h1 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent'>
-              Meet the humans of BSAC
+              Meet the humans of BDGS
             </h1>
             <p className='mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400'>
               Thank you for visiting our community. We invite you to explore our
@@ -18,7 +18,7 @@ export default function PeopleBoard() {
           </div>
         </div>
       </div>
-      <div className='grid grid-cols-5 grid-rows-5 gap-4 mx-12 '>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 grid-rows-5 gap-4 mx-12 '>
         {executiveBody.map(({ id, name, img, title, followers, following }) => (
           <ProfileCard
             key={id}
