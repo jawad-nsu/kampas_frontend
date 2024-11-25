@@ -3,7 +3,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import { createClient } from '@/utils/supabase/component';
 
 export const config = {
-  runtime: 'edge',
+  runtime: 'experimental-edge',
 };
 
 export default async function handler(
