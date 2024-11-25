@@ -1,8 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/KBH6Ik8LGqn
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import { AvatarImage, AvatarFallback, Avatar } from '@/components/ui/avatar';
 import {
   SelectValue,
