@@ -2,6 +2,10 @@ import { type EmailOtpType } from '@supabase/supabase-js';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { createClient } from '@/utils/supabase/component';
 
+export const config = {
+  runtime: 'edge',
+};
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
