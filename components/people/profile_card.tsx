@@ -4,6 +4,7 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import { Button } from '@/components/ui/button';
+import { BackgroundGradient } from '../ui/background-gradient';
 
 interface ProfileCardProps {
   name: string;
@@ -21,6 +22,7 @@ export default function ProfileCard({
   following,
 }: ProfileCardProps) {
   return (
+    // <BackgroundGradient className='rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900'>
     <div className='flex items-center justify-center'>
       <div className='rounded-lg shadow-lg w-64 bg-white'>
         <div className='h-24 bg-blue-600 rounded-t-lg' />
@@ -56,5 +58,6 @@ export default function ProfileCard({
         </div>
       </div>
     </div>
+    // </BackgroundGradient>
   );
 }
