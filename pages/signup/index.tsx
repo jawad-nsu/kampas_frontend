@@ -66,7 +66,7 @@ export default function SignUp() {
               Check your email
             </h2>
             <p className='mt-2 text-gray-600'>
-              We've sent a verification link to{' '}
+              We&apos;ve sent a verification link to{' '}
               <span className='font-medium'>{email}</span>
             </p>
             <div className='mt-6'>
