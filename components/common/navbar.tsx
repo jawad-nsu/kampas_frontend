@@ -21,11 +21,11 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'Home' },
+    { href: '/people', label: 'People' },
     { href: '/jobs', label: 'Job' },
     { href: '/rooms', label: 'Room' },
     { href: '/events', label: 'Event' },
     { href: '/meetups', label: 'Meetup' },
-    { href: '/people', label: 'People' },
     { href: '/blogs', label: 'Blog' },
   ];
 
