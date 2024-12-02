@@ -58,8 +58,8 @@ const Signin = () => {
                 },
               }}
               supabaseClient={supabaseClient}
-              providers={['google', 'github']}
-              socialLayout='horizontal'
+              providers={[]}
+              //socialLayout='horizontal'
             />
           </div>
 
