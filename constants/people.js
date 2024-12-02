@@ -2,7 +2,7 @@ export const executiveBody = [
   {
     id: 1,
     name: 'Sanjana Sayeed',
-    img: 'https://media.licdn.com/dms/image/v2/D4E35AQG44ctlcO2AJg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1686208090874?e=1729213200&v=beta&t=Bvpz_AFrMD2uf8lalj1VAl5unaQQbJzG2Hyg0jWEXwc',
+    img: 'https://media.licdn.com/dms/image/v2/D4E35AQG44ctlcO2AJg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1686208090874?e=1733702400&v=beta&t=5P2ay_wT7YBD4o3b-Cl7SPf1KSnchIcnuXdMINAVN2Q',
     title: 'President',
     followers: 600,
     following: 200,
@@ -18,7 +18,7 @@ export const executiveBody = [
   {
     id: 3,
     name: 'Fatema Ahsan Meem',
-    img: 'https://media.licdn.com/dms/image/D4E35AQEfN9HGP4ekbA/profile-framedphoto-shrink_400_400/0/1706410146706?e=1707926400&v=beta&t=3RH9qhebTnw2_EhQFUqYGq3H6fRXUlM2jKFKL2MyPTw',
+    img: 'https://media.licdn.com/dms/image/v2/D4E35AQGwKFtNMUfSGQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1728701832543?e=1733706000&v=beta&t=HTO2ZFQovXOW1HhT1nCJ5JbB2SB3BOqflHwZNln2J5Y',
     title: 'Executive Member',
     followers: 200,
     following: 100,
